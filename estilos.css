@@ -613,43 +613,31 @@ button {
 
 .foto {
 
-    min-height: 280px;
+    height: 300px;
+
+    overflow: hidden;
 
     background:
-
         linear-gradient(
             135deg,
             rgba(167,207,198,.35),
             rgba(111,168,201,.25)
         );
 
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: var(--azul-profundo);
-
-    font-style: italic;
-
 }
 
 
-.foto:nth-child(1) {
+.foto img {
 
-    min-height: 350px;
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
 
 }
-
-
-.foto:nth-child(4) {
-
-    min-height: 350px;
-
-}
-
-
 /* =====================================================
    CELEBRACIÓN
    ===================================================== */
