@@ -27,7 +27,7 @@ const invitados = {
 
     "ricardo-isla": {
 
-        nombre: "Familia Isla",
+        nombre: "Familia Isla Reyes",
 
         boletos: 4
 
