@@ -633,9 +633,7 @@ button {
 
     max-width: none;
 
-    background: #000000;
-
-    color: white;
+    background: var(--blanco);
 
 }
 
@@ -646,37 +644,24 @@ button {
 
     margin: auto;
 
-    padding: 20px 25px;
-
 }
 
 
 .celebracion h2 {
 
-    color: white;
+    color: var(--azul-profundo);
 
 }
 
 
 .celebracion p {
 
-    color: #E8E8E8;
+    color: var(--gris);
 
 }
 
 
-.celebracion .etiqueta {
 
-    color: #C5A46D;
-
-}
-
-
-.celebracion .linea-decorativa {
-
-    color: #A7CFC6;
-
-}
 /* =====================================================
    VESTIMENTA
    ===================================================== */
