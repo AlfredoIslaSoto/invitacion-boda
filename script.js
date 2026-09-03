@@ -667,6 +667,9 @@ if (
 
                         idInvitado:
                             identificador,
+                        
+                        asistencia: 
+                            "Sí",
 
                         personas:
                             cantidad
