@@ -634,17 +634,17 @@ button {
     max-width: none;
 
     background:
-        rgba(250, 247, 242, 0.82);
+        rgba(45, 74, 109, 0.94);
 
-    color: var(--texto);
+    color: white;
 
     border-top:
         1px solid
-        rgba(184, 155, 103, 0.25);
+        rgba(184, 155, 103, 0.45);
 
     border-bottom:
         1px solid
-        rgba(184, 155, 103, 0.25);
+        rgba(184, 155, 103, 0.45);
 
 }
 
@@ -662,28 +662,29 @@ button {
 
 .celebracion h2 {
 
-    color: var(--azul-profundo);
+    color: white;
 
 }
 
 
 .celebracion p {
 
-    color: var(--gris);
+    color:
+        rgba(255, 255, 255, 0.88);
 
 }
 
 
 .celebracion .etiqueta {
 
-    color: var(--dorado);
+    color: #D8BD82;
 
 }
 
 
 .celebracion .linea-decorativa {
 
-    color: var(--azul);
+    color: #A7CFC6;
 
 }
 
