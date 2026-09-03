@@ -633,18 +633,9 @@ button {
 
     max-width: none;
 
-    background:
-        rgba(45, 74, 109, 0.94);
+    background: #000000;
 
     color: white;
-
-    border-top:
-        1px solid
-        rgba(184, 155, 103, 0.45);
-
-    border-bottom:
-        1px solid
-        rgba(184, 155, 103, 0.45);
 
 }
 
@@ -662,22 +653,21 @@ button {
 
 .celebracion h2 {
 
-    color: rgba(255, 255, 255, 0.221);
+    color: white;
 
 }
 
 
 .celebracion p {
 
-    color:
-        rgba(255, 255, 255, 0.406);
+    color: #E8E8E8;
 
 }
 
 
 .celebracion .etiqueta {
 
-    color: #D8BD82;
+    color: #C5A46D;
 
 }
 
@@ -687,7 +677,6 @@ button {
     color: #A7CFC6;
 
 }
-
 /* =====================================================
    VESTIMENTA
    ===================================================== */
