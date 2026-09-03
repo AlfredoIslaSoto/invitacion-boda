@@ -406,7 +406,7 @@ const invitados = {
 
     "alis": {
 
-        nombre: "Estimada Tía Alis",
+        nombre: "Estimada Alicia Cabrera",
 
         boletos: 1
 
@@ -510,7 +510,7 @@ const invitados = {
 
     "maria": {
 
-        nombre: "Estimada María",
+        nombre: "Estimada María Anguiano",
 
         boletos: 1
 
@@ -518,7 +518,7 @@ const invitados = {
 
     "vazquez-anguiano": {
 
-        nombre: "Familia Vázquez Anguiano",
+        nombre: "Familia López Vázquez",
 
         boletos: 4
 

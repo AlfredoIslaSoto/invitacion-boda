@@ -463,35 +463,93 @@ if (botonConfirmar) {
             }
 
 
-            /* =========================================
-               NO ASISTIRÁN
-               ========================================= */
+           /* =========================================
+   NO ASISTIRÁN
+   ========================================= */
 
-            if (
-                asistencia.value === "no"
-            ) {
+if (
+    asistencia.value === "no"
+) {
 
-                if (formularioConfirmacion) {
+    /* =========================================
+       ENVIAR NO ASISTENCIA A GOOGLE SHEETS
+       ========================================= */
 
-                    formularioConfirmacion.style.display =
-                        "none";
+    fetch(
+        "https://script.google.com/macros/s/AKfycbyoHUh1Ny-2APatEfQxKD339b2I6UAKatmt0XRe1oGHadbjGHQG--GXkd52YeY9Y3IS/exec",
+        {
+            method: "POST",
 
-                }
+            mode: "no-cors",
+
+            body: JSON.stringify({
+
+                accion:
+                    "confirmar",
+
+                idInvitado:
+                    identificador,
+
+                asistencia:
+                    "No",
+
+                personas:
+                    0
+
+            })
+        }
+    )
+
+    .then(() => {
+
+        console.log(
+            "No asistencia enviada a Google Apps Script."
+        );
 
 
-                if (mensajeConfirmacion) {
+        /* =================================
+           OCULTAR FORMULARIO
+           ================================= */
 
-                    mensajeConfirmacion.hidden =
-                        false;
+        if (formularioConfirmacion) {
 
-                }
+            formularioConfirmacion.style.display =
+                "none";
 
-
-                return;
-
-            }
+        }
 
 
+        /* =================================
+           MOSTRAR MENSAJE
+           ================================= */
+
+        if (mensajeConfirmacion) {
+
+            mensajeConfirmacion.hidden =
+                false;
+
+        }
+
+    })
+
+    .catch(error => {
+
+        console.error(
+            "Error al enviar no asistencia:",
+            error
+        );
+
+
+        alert(
+            "No se pudo enviar la respuesta."
+        );
+
+    });
+
+
+    return;
+
+}
             /* =========================================
                SÍ ASISTIRÁN
                ========================================= */
