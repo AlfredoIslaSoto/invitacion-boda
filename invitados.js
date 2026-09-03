@@ -348,7 +348,7 @@ const invitados = {
 
     },
 
-    "karla-hernandezs": {
+    "karla-hernandez": {
 
         nombre: "Estimada Karla",
 
