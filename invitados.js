@@ -734,7 +734,15 @@ const invitados = {
 
     "cristina": {
 
-        nombre: "Estimada señora Cristina",
+        nombre: "Estimada Señora Cristina",
+
+        boletos: 2
+
+    },
+
+    "ricardo-piña": {
+
+        nombre: "Estimado Ricardo Piña",
 
         boletos: 2
 
