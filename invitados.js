@@ -512,7 +512,7 @@ const invitados = {
 
         nombre: "Estimada María Anguiano",
 
-        boletos: 1
+        boletos: 3
 
     },
 
