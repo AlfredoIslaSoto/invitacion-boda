@@ -197,7 +197,7 @@ const invitados = {
 
         nombre: "Estimado Ulises",
 
-        boletos: 1
+        boletos: 2
 
     },
 
