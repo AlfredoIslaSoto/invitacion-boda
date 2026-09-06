@@ -748,7 +748,7 @@ const invitados = {
 
     },
 
-     "fuentes marines": {
+     "fuentes-marines": {
 
         nombre: "Familia Fuentes Marines",
 
@@ -768,7 +768,7 @@ const invitados = {
 
         nombre: "Estimado Brandon",
 
-        boletos: 2
+        boletos: 1
 
     }
 
