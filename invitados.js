@@ -746,7 +746,32 @@ const invitados = {
 
         boletos: 2
 
+    },
+
+     "fuentes marines": {
+
+        nombre: "Familia Fuentes Marines",
+
+        boletos: 4
+
+    },
+
+     "damian": {
+
+        nombre: "Estimado Damian",
+
+        boletos: 1
+
+    },
+
+     "brandon": {
+
+        nombre: "Estimado Brandon",
+
+        boletos: 2
+
     }
+
 
     
 };
