@@ -704,7 +704,7 @@ const invitados = {
 
         nombre: "Estimada Siria",
 
-        boletos: 3
+        boletos: 4
 
     },
 
