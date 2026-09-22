@@ -205,7 +205,7 @@ const invitados = {
 
         nombre: "Estimado Guillermo",
 
-        boletos: 3
+        boletos: 4
 
     },
 
@@ -770,7 +770,17 @@ const invitados = {
 
         boletos: 1
 
+    },
+
+    
+     "artemio": {
+
+        nombre: "Familia Vazquez Ramirez",
+
+        boletos: 4
+
     }
+
 
 
     
