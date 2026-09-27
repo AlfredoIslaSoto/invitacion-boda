@@ -432,7 +432,7 @@ const invitados = {
 
         nombre: "Familia Hernández Corona",
 
-        boletos: 3
+        boletos: 5
 
     },
 
