@@ -794,7 +794,7 @@ const invitados = {
 
    "piski": {
 
-        nombre: "Estimado Pisqui",
+        nombre: "Estimado Ismael",
 
         boletos: 1
 
