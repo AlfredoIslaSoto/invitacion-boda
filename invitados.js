@@ -433,6 +433,9 @@ const invitados = {
         nombre: "Familia Hernández Corona",
 
         boletos: 5
+        
+
+
 
     },
 
@@ -779,9 +782,23 @@ const invitados = {
 
         boletos: 4
 
+    },
+
+   "charlie": {
+
+        nombre: "Estimado Carlos",
+
+        boletos: 5
+
+    },
+
+   "piski": {
+
+        nombre: "Estimado Pisqui",
+
+        boletos: 1
+
     }
-
-
 
     
 };
