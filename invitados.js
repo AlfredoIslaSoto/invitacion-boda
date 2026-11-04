@@ -420,6 +420,14 @@ const invitados = {
 
     },
 
+    "sara-hernandez": {
+
+        nombre: "Invitación cancelada",
+
+        boletos: 0,
+        cancelada: true
+
+    },
 
     "hernandez-corona": {
 
