@@ -420,7 +420,7 @@ const invitados = {
 
     },
 
-    "sara-hernandez": {
+    "sara-hernandez_borrada": {
 
         nombre: "Estimada Sara Hernández",
 
