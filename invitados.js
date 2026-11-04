@@ -420,13 +420,6 @@ const invitados = {
 
     },
 
-    "sara-hernandez_borrada": {
-
-        nombre: "Estimada Sara Hernández",
-
-        boletos: 3
-
-    },
 
     "hernandez-corona": {
 
