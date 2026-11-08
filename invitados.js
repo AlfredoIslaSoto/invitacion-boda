@@ -809,6 +809,14 @@ const invitados = {
 
     },
 
+  "Erick": {
+
+        nombre: "Estimado Erick y esposa",
+
+        boletos: 2
+
+    },
+
    "Olek": {
 
         nombre: "Estimado Olek y familia",
