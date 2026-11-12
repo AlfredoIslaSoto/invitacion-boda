@@ -817,6 +817,14 @@ const invitados = {
 
     },
 
+     "choyun": {
+
+        nombre: "Estimado Jesús Alvarez 'Choyun'",
+
+        boletos: 1
+
+    },
+
    "Olek": {
 
         nombre: "Estimado Olek y familia",
